@@ -7,13 +7,22 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "release:patch": "standard-version",
+    "release:minor": "standard-version -r minor",
+    "release:major": "standard-version -r major",
+    "release:simulation": "standard-version --dry-run"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.0.2",
-    "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/plugin-i18n": "4.0.2",
+    "@strapi/plugin-users-permissions": "4.0.2",
+    "@strapi/strapi": "4.0.2",
     "pg": "8.6.0"
   },
   "author": {
