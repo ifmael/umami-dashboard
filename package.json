@@ -23,7 +23,8 @@
     "@strapi/plugin-i18n": "4.0.2",
     "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/strapi": "4.0.2",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "pg-connection-string": "^2.5.0"
   },
   "author": {
     "name": "Ismael Rodriguez",
